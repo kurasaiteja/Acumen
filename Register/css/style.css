@@ -1,0 +1,187 @@
+* {
+  background-color: sky-blue;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.main{
+  margin-left: 55em; 
+  margin-top: 25em;
+}
+
+
+
+#box{
+  height: 200px;
+  width: 1000px;
+  background-color: #173F5F;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#main{
+  height: 400px;
+  width: 450px;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+}
+
+#loginform,#signupform{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+#signupform{
+  top:45%;
+  left: 75%;
+  visibility: hidden;
+}
+
+#loginform h1,#signupform h1{
+  font-family: arial;
+  font-size: 25px;
+  color: green; 
+}
+
+#loginform input,#signupform input {
+  height: 40px;
+  width: 300px;
+  border: 0px;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin: 5px;
+}
+
+#loginform button,#signupform button {
+  height: 35px;
+  width: 130px;
+  background-color: green;
+  font-family: monospace;
+  font-size: 16px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 175px;
+}
+
+#login_btn,#signup_btn{
+  height: 35px;
+  width: 120px;
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  position: absolute;
+  left: 75%;
+  top: 65%;
+  transform: translate(-50%,-50%);
+  transition: all .5s;
+}
+
+#signup_btn{
+  left: 25%;
+}
+
+#login_btn:hover,#signup_btn:hover{
+  background-color: white;
+  color: #2d2d2d;
+  cursor: pointer;
+}
+
+#login_msg,#signup_msg{
+  font-family: arial;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+#signup_msg{
+  left: 25%;
+}
+
+.checkbox {
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+}
+
+.checkbox input {
+  left: 5%;
+}
+
+.modal {
+  text-align: center;
+  
+}
+
+.modal:before {
+  
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.main{
+  margin-left: 50%; 
+  margin-top: 25%;
+}
+
+Desktop Layout Sizes (Can range from 960-1140 depending on your layout.)
+@media only screen and (min-width:1025px) {
+  .main{
+   margin-top: 25%;
+  }
+}
+Tablet (Landscape)
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+  .main{
+  margin-top: 25%;
+}
+}
+Tablet (Portrait)
+@media only screen and (min-width:581px) and (max-width:768px) {
+.main{ 
+  margin-top: 45%;
+}
+}
+Phone (Landscape)
+@media only screen and (min-width:321px) and (max-width:580px) { 
+ .main{
+  margin-top: 50%;
+}
+}
+Typical Phone (Portrait)
+@media only screen and (max-width:320px) { 
+ .main{
+  margin-top: 50%;
+}
+}

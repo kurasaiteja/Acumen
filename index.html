@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Acumen IT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./dist/css/nav.css">
+     
+
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: black;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: black;
+
+        /* Center slide text vertically */
+        
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(./dist/img/Preloader_3.gif) center no-repeat #fff;
+}
+
+    </style>
+</head>
+<body>
+<div class="se-pre-con"></div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div id="one" style="background-color: black;" class="swiper-slide">
+
+                                     <div class="hide" id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+                   <div class="smalltext">Seconds</div>
+                   </div>
+                </div>
+          
+            <div class="containerlogo">
+  <div class="animation">
+             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 126.61 57.02" style="enable-background:new 0 0 126.61 57.02;" xml:space="preserve">
+   <style type="text/css">
+    .st0{fill:white;stroke: #12cbc4; stroke-width:0.2;}
+   </style>
+<g>
+  <g>
+    <g>
+      <path class="st0" d="M62.35,14.87L50.33,36.6h5.05l2.72-4.92H67l2.87,4.92h5.05L62.35,14.87z M60.17,28l2.29-4.17l2.4,4.17H60.17z"/>
+      <path class="st0" d="M61.31,32.39v5.84h-1.79v-5.84H61.31z M61.71,32.39v1.18h1.07v4.65h1.79v-4.64h1.04V32.4L61.71,32.39L61.71,32.39z"/>
+    </g>
+    <g>
+      <path class="st0"  d="M65.22,18.83l-2.87-5.28l-2.9,5.28h-0.72l3.62-6.47l3.54,6.47H65.22z M67.18,18.83l-4.83-8.84l-4.9,8.84h0.75l4.16-7.61
+        l4.11,7.61H67.18z"/>
+      <path class="st0" d="M52.3,31.99l-3.07,5.15l5.88,0.04l0.35,0.65l-7.23-0.11l3.75-6.34L52.3,31.99z M51.35,30.22l-5.13,8.65L56.08,39
+        l-0.36-0.67l-8.46-0.04l4.44-7.41L51.35,30.22z"/>
+      <path class="st0" d="M72.83,32.03l3.07,5.15l-5.88,0.04l-0.35,0.65l7.23-0.11l-3.75-6.34L72.83,32.03z M73.79,30.26l5.13,8.65l-9.86,0.12
+        l0.36-0.67l8.46-0.04l-4.44-7.41L73.79,30.26z"/>
+    </g>
+    <g>
+      <polygon class="st0" points="51.01,40.96 49.82,42.92 50.33,42.92 51.01,41.74 51.72,42.92 52.19,42.92      "/>
+      <path class="st0" d="M54.3,40.96h-1.39c-0.09,0.03-0.18,0.06-0.29,0.11c-0.05,0.03-0.1,0.05-0.15,0.07c-0.06,0.03-0.14,0.1-0.22,0.18
+        c-0.07,0.08-0.11,0.17-0.15,0.22c-0.03,0.07-0.04,0.15-0.07,0.22v0.37l0.1,0.22c0.04,0.06,0.09,0.12,0.15,0.18
+        c0.05,0.05,0.1,0.1,0.15,0.15c0.05,0.04,0.12,0.1,0.22,0.15c0.11,0.05,0.22,0.07,0.29,0.07c0.45,0,0.91,0,1.36,0v-0.37h-1.39
+        l-0.29-0.18c-0.03-0.03-0.07-0.07-0.1-0.13c-0.04-0.08-0.06-0.15-0.07-0.2c0-0.06,0-0.12,0-0.18c0.01-0.06,0.03-0.12,0.03-0.18
+        c0.04-0.06,0.1-0.12,0.15-0.18c0.09-0.05,0.16-0.1,0.25-0.15c0.48,0,0.95,0,1.43,0L54.3,40.96L54.3,40.96z"/>
+      <path class="st0" d="M55.05,40.96v1.14l0.18,0.26l0.39,0.18h0.32l0.32-0.15l0.22-0.3v-1.14h0.43v1.07c-0.03,0.11-0.07,0.22-0.1,0.33
+        c-0.04,0.07-0.1,0.15-0.15,0.22c-0.09,0.06-0.16,0.12-0.25,0.18c-0.1,0.05-0.22,0.1-0.32,0.15h-0.5
+        c-0.12-0.05-0.24-0.1-0.35-0.15c-0.1-0.06-0.19-0.12-0.29-0.18c-0.07-0.07-0.15-0.15-0.22-0.22c-0.03-0.11-0.04-0.22-0.07-0.33
+        c0-0.36,0-0.72,0-1.07H55.05z"/>
+      <polygon class="st0" v points="57.67,41.67 58.38,42.15 59.1,41.67 59.1,42.92 59.52,42.92 59.52,40.96 58.38,41.74 57.27,40.96 57.27,42.92 
+        57.67,42.92       "/>
+      <polygon class="st0" points="62.1,41.34 60.42,41.34 60.27,41.41 60.27,41.67 61.71,41.67 61.71,42.03 60.27,42.03 60.27,42.48 60.35,42.55 
+        62.1,42.55 62.1,42.92 60.27,42.92 60.02,42.78 59.85,42.51 59.85,41.34 59.99,41.11 60.27,40.96 62.1,40.96      "/>
+      <polygon class="st0" points="62.85,42.92 62.85,41.7 64.71,42.92 64.71,40.96 64.28,40.96 64.28,42.18 62.42,40.96 62.42,42.92       "/>
+      <path class="st0" d="M66.71,40.96h1.64c0.01,0,0.03,0,0.03,0.01l0.31,0.13c0.02,0.01,0.03,0.03,0.04,0.04l0.15,0.24
+        c0.01,0.02,0.02,0.03,0.02,0.05v0.2c0,0.03-0.01,0.04-0.02,0.06l-0.15,0.22c-0.01,0.01-0.02,0.02-0.03,0.03l-0.29,0.19
+        c-0.02,0.01-0.03,0.02-0.05,0.02h-1.13c-0.01,0-0.02,0-0.03,0l-0.06,0.03c-0.02,0.01-0.04,0.03-0.05,0.04l-0.03,0.06
+        c-0.01,0.02-0.02,0.03-0.02,0.05v0.17c0,0.05,0.04,0.1,0.1,0.1h1.67c0.05,0,0.1,0.04,0.1,0.1v0.13c0,0.05-0.04,0.1-0.1,0.1h-2.1
+        c-0.05,0-0.1-0.04-0.1-0.1v-0.52c0-0.01,0-0.01,0-0.02l0.03-0.16c0-0.01,0.01-0.03,0.01-0.03l0.06-0.13
+        c0.01-0.01,0.03-0.03,0.03-0.03l0.07-0.07c0.02-0.01,0.02-0.03,0.03-0.03l0.15-0.03h0.64c0,0,0.53,0,0.54,0
+        c0,0,0.15-0.01,0.16-0.02l0.09-0.1l0.07-0.07c0.01-0.01,0.03-0.11-0.01-0.18l-0.1-0.04c0,0-0.18-0.07-0.2-0.07h-1.5
+        c-0.05,0-0.1-0.04-0.1-0.1v-0.13C66.61,41,66.65,40.96,66.71,40.96z"/>
+      <polygon class="st0" points="69.19,40.96 69.19,42.92 69.61,42.92 69.61,42.44 70.19,42 70.94,42.92 71.48,42.92 70.52,41.74 71.48,40.96 
+        70.76,40.96 69.61,41.85 69.61,40.96       "/>
+      <polygon class="st0" points="71.83,40.96 71.83,41.37 71.94,41.37 72.08,41.37 72.19,41.52 72.19,42.96 72.62,42.96 72.62,41.55 72.48,41.26 
+        72.33,41.15 72.23,41.07 72.08,40.96       "/>
+      <path class="st0" d="M75.1,41.29l-0.18-0.18l-0.22-0.15h-1.29l-0.25,0.11l-0.15,0.15l-0.1,0.22v0.26l0.03,0.11l0.35,0.33l1.36-0.03l0.07,0.07
+        l0.07,0.15l-0.03,0.15l-0.22,0.07h-1.46v0.37h1.54l0.29-0.11l0.15-0.11l0.1-0.26v-0.96L75.1,41.29z M74.73,41.63l-0.1,0.11
+        l-1.14,0.03l-0.1-0.07l-0.07-0.07v-0.15l0.07-0.07l0.1-0.07h1.11l0.15,0.11L74.73,41.63L74.73,41.63z"/>
+    </g>
+  </g>
+</g>
+</svg>
+</div>
+</div>
+         
+                <div class="container heroText">
+                              <div class="hero">
+                                14th March<br>
+
+                              </div>
+                              Vasavi College of Engineering <br>
+                              <br>
+                     
+                            </div>
+                             <span class="fa fa-angle-down downArrow"></span>
+                <div class="socialIcons">
+                              <a class="fbIcon" href="https://www.facebook.com/ACUMENITFEST/" style="font-size: 0.9em;"><i class="fab fa-facebook-f"></i></a>
+                              <a class="instIcon" href="https://www.instagram.com/acumen.it.vce/" style="margin-left: calc(2px + 1vw)"><i class="fab fa-instagram"></i></a>
+                            </div>
+
+            </div>
+
+             <div id="two" style="background-color: #23153c;" class="swiper-slide">
+            <div class="titleabout">ABOUT</div> 
+            <div class="intro" class="animated infinite bounce delay-2s" ><span class="hide">The pace of progress in the field of Science Technology in this millennium has overshadowed the speed of Technological changes in the past decades.  In this millennium, this pacewould intensify and may even reach a state beyond our imagination.</span>Technical Symposiums like Acumen are an effort to catch upwith the pace of technological innovation.
+            "Acumen triggered off in the year 1996. It was the first of its kind in Hyderabad and had an overwhelming response. It paved way to Acumen '99, which was a great success, too.</div>
+             <div class="about" style=" right: 0;"> Around 180 papers from various parts of the country were received and students from various universities and institutes like IIT, NIT etc. have participated in this symposium.
+            ACUMEN is a technical festival.
+           The event seeks to achieve communication of innovative ideas.<span class="hide">It also promote the cause of the technological advantage among the students, and also  keep them abreast with the latest advances in their respective fields. It also opens a window to the participants to interact with people from different backgrounds and upgrade their knowledge.</span>
+         </div> 
+         <div class="titleintro">INTRO</div>
+
+      </div>
+            <div id="three" class="swiper-slide">
+               <div class="titletheme">THEME</div> 
+              <div class="theme"><span class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>Technical Symposiums like Acumen are an effort to catch up with the pace of technological innovation.
+            "Acumen triggered off in the year 1996. It was the first of its kind in Hyderabad and had an overwhelming response. It paved way to Acumen '99, which was a great success, too.<br>
+           <a href="./events/index.html"><button class="svg">Events</button></a>
+           <a href="./3dmap/3dmap.html"><button class="svg">3dmap</button></a>
+           </div>
+            
+                  
+
+
+
+
+            </div>
+                     <div id="four" style="background-color: black;" class="swiper-slide">
+               <div class="row">
+                     <div class="column">
+                     <div class="mapouter">
+                    <div class="heading1" style="color:#ededed; padding-left: 5px; text-align:center;">3D MAP</div>
+                <div class="gmap_canvas"><iframe id="gmap_canvas" src="./3dmaphome/3dmap.html" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a>
+                </div>
+            </div>
+            </div>
+                <div class="column">
+                       <div class="sitemap">
+                              <div class="heading">Sitemap</div>
+                              <br>
+                              <a href="./events/index.html" onclick="alertt()">Events</a><br>
+                              <a href="./team/index.html">Our Team</a><br>
+                              <a href="./sponsors/index.html">Sponsors</a><br>
+                              <a href="./3dmap/3dmap.html">3D Map</a><br>
+                              <a href="./Register/index.html" onclick="alertt()">Register/Sign in</a><br>
+                              <a href="./Gallery/index.html">Gallery</a><br>
+                           <br>
+                           <br>
+                         </div>
+                         <div class="query">Any queries? Mail us at<br>
+                           <a style="text-transform: none;" href = "mailto:acumen.it.vce@gmail.com.com?subject = Feedback&body = Message">
+                           acumen.it.vce@gmail.com</a>
+                           
+                            </div>
+  </div>
+</div>
+             
+               
+           </div>
+</div>
+        </div>
+      
+
+
+<!--Navigation-->
+    <img class="mainlogo" src="./dist/img/A.png" height="50" width="50" onclick="reload()">
+     <div class="open-overlay">
+
+        <span class="bar-top"></span>
+        <span class="bar-middle"></span>
+        <span class="bar-bottom"></span>
+      </div>
+    <div class="overlay-navigation">
+      <nav role="navigation">
+        <ul>
+          <li><a class="h3" href="./index.html" data-content="The beginning">Home</a></li>
+          <li><a class="h3" href="./events/index.html" data-content="I got game" onclick="alertt()">Events</a></li>
+          <li><a class="h3" href="./sponsors/index.html" data-content="Only the finest">Sponsors</a></li>
+          <li><a class="h3" href="./team/index.html" data-content="Don't hesitate">The Team</a></li>
+          <li><a class="h3" href="./Gallery/index.html" data-content="Memories!">Gallery</a></li>
+          <li><a class="h3" href="./Register/index.html" data-content="Curious?" onclick="alertt()">Register/Sign in</a></li>
+        </ul>
+      </nav>
+    </div>
+<!--Navigation Ends-->
+
+    <!-- Swiper JS -->
+    <script src="./dist/js/swiper.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script  src="./dist/js/index.js"></script>
+<script src="./dist/js/three.r92.min.js"></script>
+<script src="./dist/js/vanta.waves.min.js"></script>
+<script src="./dist/js/vanta.rings.min.js"></script>
+<script>
+  //paste this code under head tag or in a seperate js file.
+  // Wait for window load
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("fast");
+    $('path').addClass('animated')
+  });
+</script>
+
+<script>
+VANTA.WAVES({
+  el: "#two",
+  color: 0x283d82,
+  waveHeight: 34.50,
+  waveSpeed: 1.10
+})
+</script>
+<script>
+VANTA.RINGS({
+  el: "#three"
+})
+</script>
+<script>
+  function alertt()
+  {
+    alert("Registrations aren't open yet.But you can look around!")
+  }
+</script>   
+<script >
+  function reload()
+  {
+    window.location="./index.html";
+  }
+</script> 
+  
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+        enabled: true,
+      },
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+    });
+    </script>
+</body>
+</html>
