@@ -320,7 +320,7 @@ button {
     right: 5%;
     bottom: 4%;
     color: #EDEDED;
-    font-size:1.5em;
+    font-size:1.0em;
 }
 #clockdiv{
   display: block;
@@ -360,10 +360,10 @@ svg{
   left:-90vw;
 }
 .socialIcons{
-    font-size:1.7em;
+    font-size:1.0em;
     position: fixed;
     right: 43%;
-    bottom: 6%;
+    bottom: 4%;
 }
 .heroText {
     font-family: 'Comfortaa'
@@ -455,7 +455,7 @@ svg{
   left:-85vw;
 }
 .socialIcons{
-    font-size:1.7em;
+    font-size:1.0em;
     position: fixed;
     right: 43%;
     bottom: 4%;
